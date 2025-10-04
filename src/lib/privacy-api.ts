@@ -2,7 +2,7 @@
  * API client for Privacy Prediction Service
  */
 
-const API_BASE_URL = 'http://localhost:8002';
+const API_BASE_URL = 'http://localhost:8003';
 
 export interface AppData {
   app_name: string;

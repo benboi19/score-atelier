@@ -130,7 +130,7 @@ const Hero = () => {
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="text-center">
                           <div className="text-3xl font-bold text-rose-gold mb-1">
-                            {result.privacy_score?.toFixed(1) || 'N/A'}
+                            {result.privacy_score?.toFixed(1) || 'N/A'} out of 100
                           </div>
                           <div className="text-sm opacity-80">Privacy Score</div>
                         </div>

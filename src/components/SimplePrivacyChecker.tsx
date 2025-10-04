@@ -164,7 +164,7 @@ const SimplePrivacyChecker = () => {
                         {/* Privacy Score */}
                         <div className="text-center p-4 bg-gray-50 rounded-lg">
                           <div className="text-3xl font-bold text-gray-900 mb-1">
-                            {prediction.privacy_score}/56
+                            {prediction.privacy_score} out of 100
                           </div>
                           <div className="text-sm text-gray-600">Privacy Score</div>
                           <div className="text-sm text-gray-500 mt-2">
